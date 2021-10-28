@@ -27,9 +27,16 @@ console.log (lastName + ' - is my last name ' + age)
 //console.log ('Your name is '+ imya);
 
 //Операторы
+//let currentYear = 2021
 // const a = 10
 // const b = 5
-//
+// console.log(a + b)
+// console.log(a - b)
+// console.log(a * b)
+// console.log(a / b)
+// console.log(++currentYear) если поставить ++как в примере, выведится 2022
+// console.log(--currentYear) выведится 2020
+// console.log(c)
 // let c = 32
 // c = c + a    или  c += a
 // c = c - a    или  c -= a
