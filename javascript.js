@@ -17,14 +17,25 @@ console.log (lastName + ' - is my last name ' + age)
 //console.log ('hello js!!!')
 
 //Функции браузерного JS- alert, promt
-let fName=prompt('add your name')
-console.log('mY  name - ' + fName + lastName)
+//let fName=prompt('add your name')
+//console.log('mY  name - ' + fName + lastName)
 
-let bedinToStart = 'start  JS!!!';
+//let bedinToStart = 'start  JS!!!';
 //bedinToStart = 'let me'
 //console.log (bedinToStart)
  //const imya = prompt ('what is your name?');
 //console.log ('Your name is '+ imya);
+
+//Операторы
+// const a = 10
+// const b = 5
+//
+// let c = 32
+// c = c + a    или  c += a
+// c = c - a    или  c -= a
+// c = c * a    или  c *= a
+// c = c / a    или  c /= a
+//
 
 //Типы данных
 let logic = true; //boolean
