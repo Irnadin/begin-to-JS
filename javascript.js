@@ -1,12 +1,37 @@
-//Работа с переменными
-//console.log ('hello js')
-let bedinToStart = 'start  JS';
+// 1 Работа с переменными 
+// var, const,let
+
+// Называть можно с помощью -camelCase
+// const _ = 'private'
+// const $ = 'some value'
+// const withNum5 = '5'
+// const if = 'mkef' // err
+// const 5withNum = 5 // err
+
+// 2 Мутирование 
+let lastName = 'Poizdnyk';
+let age = 35;
+console.log (lastName + ' - is my last name ' + age) 
+// несмотря на то, что age - число, JS преобразовывает в стороку(вызывая под капотом метод .toString) так как работа со стороками
+
+//console.log ('hello js!!!')
+
+//Функции браузерного JS- alert, promt
+let fName=prompt('add your name')
+console.log('mY  name - ' + fName + lastName)
+
+let bedinToStart = 'start  JS!!!';
+//bedinToStart = 'let me'
 //console.log (bedinToStart)
  //const imya = prompt ('what is your name?');
 //console.log ('Your name is '+ imya);
 
-let firstnNum = 42;
+//Типы данных
+let logic = true; //boolean
+const named='Poizdnyk'; //string
+let firstnNum = 42;  //number
 let secondNum = 2;
+ 
 //document.writeln ('Resalt', firstnNum + secondNum)
 firstnNum ++;
 //console.log (firstnNum)
